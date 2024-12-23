@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.928);
+}
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.245) ;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    
+
+}
+header #logo{
+    height: 60px;
+    width: 140px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #end-content{
+    height:60px ;
+    width: 40%;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #end-content #offers{
+    height: 50px; 
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.743);
+    font-size: 15px;
+
+}
+header #end-content #offers img{
+    position: relative;
+    height: 50%;
+    width:20px;
+    opacity: 60%; 
+}
+header #end-content #customer{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.743);
+    font-size: 15px;
+}
+header #end-content #customer img{
+    position: relative;
+    height: 50%;
+    width:20px;
+    opacity: 60%; 
+}
+header #end-content #login{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.743);
+    font-size: 15px;
+    padding-left: 30px;
+}
+header #end-content #login img{
+    position: relative;
+    height: 100%;
+}
+#main-container{
+  /* border:1px solid black; */
+  width: 75vw;
+  height: 2900px;
+  margin-left: 250px;
+}
+#main-container #fhtb-main{
+    width: inherit;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    align-items:end;
+    gap: 430px;
+}
+#main-container #fhtb-main #fhtb{
+    /* border: 1px solid; */
+    height: 60px;
+    width: 40%; 
+    display: flex;
+       
+}
+#main-container #fhtb-main #fhtb #fhtb-sub-main{
+    /* border: 1px solid; */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#main-container #fhtb-main #end-content-fhtb{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#main-container #from-to{
+    width: inherit;
+    height: 210px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+}
+#main-container #from-to #oneway{
+    /* border: 1px solid ; */
+    width: inherit;
+    height:60px;
+    display: flex;
+    justify-content: center ;
+    gap: 930px;
+    align-items: center;
+
+} 
+#main-container #from-to #oneway div{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.796);
+    font-size: 15px;
+}
+#main-container #from-to #oneway #oneway-sub{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#main-container #from-to #oneway button{
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    border-color: rgba(0, 0, 0, 0.139);
+    border-width: 0.5px;
+    
+}
+#main-container #from-to #oneway button:hover{
+    border-color: rgb(9 109 220);
+    color:rgb(9 109 220);
+}
+#main-container #from-to #destination{
+    width: inherit;
+    height:80px ;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+    padding-left: 30px;
+    
+}
+#main-container #from-to #destination div{
+   width: 240px;
+   height: 60px;
+   /* border: 1px solid; */
+   padding-top: 20px;
+   padding-left: 10px;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.031);
+   font-size: 18px;
+   color: rgba(0, 0, 0, 0.693);  
+}
+#main-container #from-to #destination div:hover{
+    background-color: rgba(0, 0, 0, 0.053);
+}
+#main-container #from-to #destination #special{
+    font-size: 18px;
+    padding-top: 0px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.796);
+}
+#main-container #from-to #destination #special:hover{
+    background-color: rgba(0, 0, 0, 0.053);
+}
+#main-container #from-to #special-fares{
+    width: inherit;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-container #from-to #special-fares div{
+    width: 600px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 8px;
+    padding-left: 30px;
+    
+}
+#main-container #from-to #special-fares button{
+    height: 25px;
+    width: 110px;
+    border-radius: 50px;
+    border-width: 1px;
+    background: none;
+    font-size: 15px;
+    border-color: rgba(0, 0, 0, 0.77);
+
+}
+#main-container #from-to #special-fares button:hover{
+    background-color: rgba(0, 0, 0, 0.053);
+}
+#main-container #options-container{
+    /* border: 1px solid; */
+    width: inherit;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.228);
+   
+}
+#main-container #options-container div{
+    border-right: 1px solid;
+    width: 155px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(0, 0, 0, 0.183);
+    margin-right: 10px;
+   
+}
+#main-container #options-container div img{
+    width: 60%;
+    height: 80%;
+  
+}
+#main-container #options-container div img:hover{
+    scale: 1.03;
+}
+#main-container #offers-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+#main-container #offers-slide div{
+    width: inherit;
+    width: 340px;
+    height: 200px;
+    
+}
+#main-container #offers-slide div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#main-container #offers-slide div img:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.217);
+    transition: box-shadow 0.3s;
+    scale: 1.01;
+}
+#main-container #need-slide{
+    display: flex ;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+    height: 130px;
+    gap: 10px;
+}
+#main-container #need-slide div{
+    width: 290px;
+    height: 90px;
+    margin-left: 10px;
+}
+#main-container #need-slide div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#main-container #need-slide div img:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.217);
+    transition: box-shadow 0.3s;
+    scale: 1.001;
+}
+#main-container #places-container{
+    border: 1px solid;
+    width: inherit;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 20px;
+    /* flex-direction: row; */
+    padding-left: 20px;
+}
+#main-container #places-container #heading{
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+  
+}
+#main-container #places-container #heading button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    background:none;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.594); 
+}
+#main-container #places-container #places{
+    height: 20px;
+    height: 260px;
+    display: flex;
+    margin-left: -16px;
+    margin-top: 5px;
+    
+}
+#main-container #places-container #places #places-suncont{
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.117);
+    width: 23%;
+    margin-left: 25px;
+   border-radius: 20px;
+   flex-direction: row; 
+   cursor: pointer;  
+}
+#main-container #places-container #places #places-suncont:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.124);
+    transition: box-shadow 0.7s;
+}
+#main-container #places-container #places #places-suncont #image{
+ width: inherit*;
+ /* border: 1px solid; */
+ height: 150px;
+ 
+}
+#main-container #places-container #places #places-suncont #image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#main-container #places-container #places #places-suncont #info{
+    width: inherit*;
+    height: 110px;
+    font-size: 18px;
+}
+#main-container #places-container #places #places-suncont #info div{
+    width: inherit;
+    height: 70px;
+}
+#main-container #places-container #places #places-suncont #info #info-sub{
+    display: flex;
+
+}
+#main-container #places-container #places #places-suncont #info #info-sub #sub1{
+    height: inherit;
+    width: 80%;
+    margin-left: 10px;
+    padding-top: 8px;
+    
+}
+#main-container #places-container #places #places-suncont #info #info-sub #sub1 button{
+ height: 48px;
+ width: 110px;
+ margin-left: 20px;
+ background: none;
+ border-color:orange;
+ border-width: 3px;
+ border-radius: 10px;
+ font-size: 17px;
+ font-weight: bold;
+ color:orange;
+ cursor: pointer;
+ outline: none;           /* Remove focus outline */
+
+}
+#main-container #flight-routes{
+    margin-top: 30px;
+    width: inherit;
+    height: 200px;
+    /* border: 1px solid; */
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+        
+}
+#main-container #flight-routes #route-container{
+    width: 440px;
+    height: 76px;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    border-radius: 12px;
+    display: flex;
+}
+#main-container #flight-routes #route-container img{
+    width: 100%;
+    height: 97%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#main-container #flight-routes #route-container #flight-info{
+    width: 320px;
+    /* border: 1px solid; */
+    padding: 10px;
+    padding-top: 19px;
+}
+#main-container #airlines-container{
+    width: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    height: 110px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.032);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+#main-container #app{
+    margin-top: 90px;
+    /* border: 1px solid; */
+    width: inherit;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.244);
+    cursor: pointer;
+}
+#main-container #app img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#main-container #news{
+    margin-top: 10px;
+    /* border: 1px solid; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 27px;
+}
+#main-container #news #news-sub{
+    width: 23%;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 20px;
+    
+}
+#main-container #news #news-sub span{
+    position: relative;
+    top: 130px;
+    left: 10px;
+    margin-top: 100px;
+    color: white;
+    font-size: 17px;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 1); 
+    font-weight: 600;
+}
+footer{
+    width: 100%;
+    height: 410px;
+    cursor: pointer;
+    background-color: rgba(242, 224, 200, 0.16);
+}
+footer img{
+    object-fit: cover;
+    margin-left: 20px;
+}
